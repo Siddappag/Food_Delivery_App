@@ -51,27 +51,28 @@ Start the server: npm start from the server folder.
 Project Structure
 Tomato/
 │
-├── client/ # Frontend (React)
-│ ├── public/
-│ ├── src/                                        # Frontend code (React)
-│ ├── components/
-│ ├── pages/
-│ └── utils/
+├── client/                  # Frontend (React)
+│   ├── public/
+│   ├── src/
+│       ├── components/
+│       ├── pages/
+│       └── utils/
 │
-├── server/ # Backend (Node.js + Express)              # Backend code (Node.js, Express)
-│ ├── config/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── middleware/
+├── server/                  # Backend (Node.js, Express)
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── middleware/
 │
-├── admin/ # Admin panel (React)                 # Admin panel (React, can be standalone or part of the client)
-│ ├── components/
-│ └── pages/
+├── admin/                   # Admin panel (React)
+│   ├── components/
+│   └── pages/
 │
-├── .env # Environment variables                # Environment variables
+├── .env                     # Environment variables
 ├── README.md
 └── package.json
+
 
 
 Future Enhancements
