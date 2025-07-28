@@ -49,6 +49,7 @@ Start the server: npm start from the server folder.
 
 
 Project Structure
+```text
 Tomato/
 │
 ├── client/                  # Frontend (React)
